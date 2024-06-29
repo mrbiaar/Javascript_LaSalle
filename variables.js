@@ -5,6 +5,8 @@ userSurename = "Rubial";
 //con acento abierto es una Template literal.
 userTitle = `Knight`; 
 
+
+
 const espacio = " ";
 // {
 //let variable = varifun
@@ -19,4 +21,21 @@ console.log(userName, userSurename, userTitle);
 
 console.log(userTitle + " " + userName + " " + userSurename);
 
-console.log(`¿Qué tal estás, ${userName}, ${userSurename});
+console.log(`¿Qué tal estás, ${userName}, ${userSurename}`);
+
+a = 1;
+b = 2;
+
+// TODO: afegiu codi
+
+console.log(a,b); // 2, 1
+
+c = a;
+d = b;
+
+a = d;
+b = c;
+
+console.log(a,b);
+
+// TODO: arrays,
