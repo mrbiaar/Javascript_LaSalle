@@ -11,7 +11,7 @@ Apuntes del módulo de Java Script del Curso de Front End de La Salle.
 - Juegos:
     - Grid Garden.
     - CSS diner.
-    - Flexbox froggy.
+    - Flexbox froggy...
 - YouTube Channels:
 
 ## Recomendaciones y buenas prácticas:
