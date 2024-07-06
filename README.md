@@ -23,3 +23,10 @@ Apuntes del módulo de Java Script del Curso de Front End de La Salle.
 
 
 ## Clases:
+
+6 DE JULIO:
+
+## Transformacion de datos:
+
+- '.tostring()', 'parseFloat()', 'parseInt()'
+Esto se encuentra en "variables.js".

@@ -56,3 +56,58 @@ profe.edad = 33
 
 console.log(profe);
 
+// CREAD UN ARRAY CON 5 OBJETOS DENTRO QUE TENGAN LAS MISMAS 4 PROPIEDADES
+// CREAD UN ARRAY QUE CONTENGA UNA LISTA DE LAS PROPIEDADES DE LOS OBJETOS
+// CREAD UNA VARIABLE QUE CONTENGA LA SUMA DE UNA PROPIEDAD
+// MOSTRAR POR CONSOLA todo lo anterior
+// Mostrar por consola una frase que resuma las propiedades de cada objeto.
+// Buscar una manera de mostrar por consola todo lo anterior en forma de una tabla.
+
+
+pokemon = [
+    {
+        num: 1;
+        nombre: "Bulbasaur";
+        nivel:  8;
+        tipo: "Planta";
+        ataques: ["Latigo cepa", "Placaje"]
+    },
+    {
+        num: 6;
+        nombre: "Charmander";
+        nivel:  10;
+        tipo: "Fuego";
+        ataques: ["Scratch", "Ascuas"]
+    },
+
+    {
+        num: 1;
+        nombre: "Squirtle";
+        nivel:  6;
+        tipo: "Agua";
+        ataques: ["Placaje", "Burbuja"]
+    },
+
+    {
+        num: 1;
+        nombre: "Pikachu";
+        nivel:  25;
+        tipo: "Electrico";
+        ataques: ["rayo", "Swift"]
+    },
+
+    {
+        num: 1;
+        nombre: "Bulbasaur";
+        nivel:  8;
+        tipo: "Normal";
+        ataques: ["Latigo", "Double team"]
+    },
+
+    
+]
+
+console.log();
+
+console.table(); //Muy importante aprender esto!!!
+
