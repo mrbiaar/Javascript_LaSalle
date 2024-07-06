@@ -30,3 +30,7 @@ Apuntes del módulo de Java Script del Curso de Front End de La Salle.
 
 - '.tostring()', 'parseFloat()', 'parseInt()'
 Esto se encuentra en "variables.js".
+- metodos de strings
+- metodos de arrays
+- [Metodos_de_strings] (https://www.w3schools.com/js/js_string_methods.asp#mark_substring)
+- [Metodos_de_busqueda] (https://www.w3schools.com/js/js_string_search.asp)
