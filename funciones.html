@@ -61,11 +61,31 @@ consoe.log(resta(5, 2));
 
 function logCustom(content, log) { <br>
     log(content)<br>
-}<br>
+}<br><br>
+<strong> Esta es una función, que tiene dos parámetros, uno de estos es otra función, esta segunda función
+<br>
+tendrá como parámetro el primer parámetro de la primera función.
+</strong>
+<br> 
 <br>
 logCustom("Omar", console.log)<br>
 logCustom("Omar", logRojo)<br> "logRojo" es también una función que me muestra el nombre en rojo.
 logCustom("Omar", logAzul)<br>
+<br>
+logCustom("Manuel", (txt) => { <br>
+    console.log("%c" + txt, "color: green");<br>
+})<br>
+<br>
+logCustom("Manuel", (txt) => console.log("%c" + txt, "color:orange"))<br>
+
+<h2>Funciones Temporales</h2>
+
+Les tengo quee pasar una definición de la fución y no una ejecución
+<br>
+ejecución: setTimeout(logCustom("Manuel", logRojo), 2000)
+Definición: setTimeout(() => logCustom("Manuel", logRojo), 2000)   esta demora 2 segundos.
+
+<br> <br>
 
 
 </body>

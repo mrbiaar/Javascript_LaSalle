@@ -40,3 +40,5 @@ Esto se encuentra en "variables.js".
 ## Funciones:
 
 - Para que se ejecute una función siempre debe tener los paréntesis. De lo contrario no se va a ejecutar.
+
+## Condicionales y Bucles:
