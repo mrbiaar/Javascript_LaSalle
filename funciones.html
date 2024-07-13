@@ -35,6 +35,38 @@ const suma == (a, b) => {<br>
 
 console.log(suma(5 + 2))<br>
 
+<h2>Funciones Anónimas</h2>
+
+const getName = () => "Manuel" <br>
+<br>
+console.log("Hola, " + getName);<br>
+<br>
+console.log((()  => "Hola, Alfredo")());   Esto es una función anónima<br>
+Se utiliza en casos que necesite una función puuntualmente y no reutilizable, o que sea autoejecutable.
+Para ahorrar tiempo y memoria no le asigno nombre, así tampooco se le puede llamar por "error", cuando solo neceesito que se ejecute una vez al cargar la página
+<br>
+Una función anónima, se ejecutará solo si es autoejecutable o si la paso como parámetro.
+
+
+<h2> Funciones Flecha con return implicito:</h2>
+
+const resta = (a, b) => a - b; <br>
+<br>
+consoe.log(resta(5, 2));
+
+<h2>Funciones callback</h2>
+
+<em> Es una función que se pasa como parámetro a otra función, para ser ejecutada después. <br>
+</em>
+
+function logCustom(content, log) { <br>
+    log(content)<br>
+}<br>
+<br>
+logCustom("Omar", console.log)<br>
+logCustom("Omar", logRojo)<br> "logRojo" es también una función que me muestra el nombre en rojo.
+logCustom("Omar", logAzul)<br>
+
 
 </body>
 </html>
