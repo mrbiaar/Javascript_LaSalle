@@ -34,3 +34,9 @@ Esto se encuentra en "variables.js".
 - metodos de arrays
 - [Metodos_de_strings] (https://www.w3schools.com/js/js_string_methods.asp#mark_substring)
 - [Metodos_de_busqueda] (https://www.w3schools.com/js/js_string_search.asp)
+
+13 DE JULIO:
+
+## Funciones:
+
+- Para que se ejecute una función siempre debe tener los paréntesis. De lo contrario no se va a ejecutar.
